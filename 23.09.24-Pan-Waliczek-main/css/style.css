@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.login-container{
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label, input, button{
+    margin:10px 0;
+}
+.error{
+    color:red;
+}
